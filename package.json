@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npm run compile:scss && serve",
-    "compile:scss": "sass scss/index.scss scss/build/index.css"
+    "compile:scss": "sass src/scss/index.scss src/scss/build/index.css"
   },
   "author": "",
   "license": "ISC",
