@@ -58,7 +58,16 @@ body {
             &:hover {
                 background-color: #FFFFFF;
                 color: #000000;
-            } 
+            }
+
+            &:disabled {
+                pointer-events: none;
+                background-color: #00000069;
+            }
         }
     }
+}
+
+.input-error {
+    border-color: #ff0000 !important;
 }
