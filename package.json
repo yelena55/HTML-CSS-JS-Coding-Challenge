@@ -1,0 +1,16 @@
+{
+  "name": "html-css-js-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run compile:scss && serve",
+    "compile:scss": "sass scss/index.scss scss/build/index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.10",
+    "serve": "^11.3.2"
+  }
+}
